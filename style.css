@@ -1,9 +1,8 @@
-/* Reset & Dasar Halaman */
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-weight: normal; /* Menghilangkan efek tebal bawaan elemen */
+  font-weight: normal;
 }
 
 body {
@@ -18,24 +17,20 @@ body {
   padding: 20px;
 }
 
-/* Pembungkus Utama untuk Menata Card & Footer */
 .wrapper {
   max-width: 650px;
   width: 100%;
 }
 
-/* Card Container (Warna Putih) */
 .card-container {
   width: 100%;
   background-color: #ffffff;
-  
-  /* Box Model Components */
+
   padding: 40px;
   margin-bottom: 20px;
   border: 1px solid #ffffff;
 }
 
-/* Style Heading (Teks Hitam & Gelap) */
 h1.main-title {
   font-size: 2rem;
   color: #000000;
@@ -60,14 +55,12 @@ h3.section-title {
   letter-spacing: 1px;
 }
 
-/* Style Paragraf */
 p {
   margin-bottom: 16px;
   color: #222222;
   font-size: 0.95rem;
 }
 
-/* Box Model Khusus Quote */
 .quote-box {
   background-color: #f5f5f5;
   padding: 20px;
@@ -81,7 +74,6 @@ p {
   font-style: italic;
 }
 
-/* Footer Copyright di Luar/Bawah Card */
 .site-footer {
   text-align: center;
   padding: 10px 0;
